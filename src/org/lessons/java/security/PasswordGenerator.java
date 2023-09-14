@@ -30,8 +30,8 @@ public class PasswordGenerator {
 		
 		sc.close();
 		
-		String Password = Name + "-" + LastName + "-" + FavouriteColor + "-" + DayOfBirth + "/" + MonthOfBirth + "/" + YearOfBirth;
+		String Password = Name + "-" + LastName + "-" + FavouriteColor + "-" + (DayOfBirth + MonthOfBirth + YearOfBirth);
 		
-		System.out.print(Password);
+		System.out.print("La tua passowrd é: " + Password);
 	}
 }
